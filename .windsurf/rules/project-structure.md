@@ -1,37 +1,44 @@
 ---
 trigger: manual
 glob:
-description:
+description: Defines the project structure and organization rules
 ---
 
-### Root Project Structure and Core Directories
-  - use the primary root-level directories and the documentation structure:
-    - packages/
-        - web/
-        - api/
-        - shared/
-        - db/
-    - docs/
-  - this directory should be a monorepo structure for Frontend and Backend
+# Project Structure Rules
 
-### Web Package Directory (packages/web)
+## Monorepo Structure
+
+The project follows a monorepo structure with the following packages:
+
+```
+/
+├── packages/
+│   ├── api/         # Backend API using Hono
+│   ├── web/         # Frontend using React
+│   ├── core/        # Shared types and utilities
+│   └── db/          # Database schema and operations
+├── docs/            # Documentation
+└── .windsurf/       # Workflows and rules
+```
+
+## Web Package Directory (packages/web)
   - use this directory to store the web application code and dependencies
     - this directory should be a Web Application Frontend and BFF (Backend For Frontend)
     
-### API Package Directory (packages/api)
+## API Package Directory (packages/api)
   - use this directory to store the API code and dependencies
     - this directory should be a API Backend
     
-### Shared Package Directory (packages/shared)
+## Shared Package Directory (packages/core)
   - use this directory to store the shared code and dependencies
     - this directory should be a shared code for both Frontend and Backend
     
-### DB Package Directory (packages/db)
+## DB Package Directory (packages/db)
   - use this directory to store the database schema and migrations
 
+# **IMPORTANT**
 
 ## Do
   - Respecting the root project structure directories
-
 ## Don't
   - Never create a new directory in the root level of the project

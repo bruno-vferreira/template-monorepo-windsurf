@@ -1,24 +1,11 @@
 ---
 trigger: manual
 glob:
-description:
+description: Create Next.js project
 ---
-Use `packages/web` as root directory for the project
-
-## Project Structure Next.js
-  - .
-    - app/
-    - components/
-    - hooks/
-    - public/
-    - providers/
-    - utils/
-    - lib/
-    - types/
-    - stores/
-    - services/
 
 ## Create Next.js project
+  - To create a standard project, use the initial Next.js command
   
   ```bash
     npx create-next-app@latest . \

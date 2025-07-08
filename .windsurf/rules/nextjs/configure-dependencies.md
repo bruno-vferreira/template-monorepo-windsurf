@@ -21,3 +21,13 @@ description:
     - create next-themes config
   - lucide-react
     - create lucide-react config
+  - next-auth
+    - create next-auth config
+  - next/image
+    - create next/image config
+  - next/font
+    - create next/font config
+  - zustand
+    - create zustand config
+  - next-seo
+    - create next-seo config
