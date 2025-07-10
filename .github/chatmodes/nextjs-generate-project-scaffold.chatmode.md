@@ -21,32 +21,32 @@ This workflow generates the complete Next.js structure for your project with all
 
 - Use turbopack as the default compiler
 - Generate the structure project:
-  - [create-next-app](./rules/nextjs/create-next-app.md)
+  - [create-next-app](./../instructions/nextjs/create-next-app.instructions.md)
 
 ### 2. Install dependencies
 
 - Install dependencies for the project
-  - [install-dependencies](./rules/nextjs/install-dependencies.md)
+  - [install-dependencies](./../instructions/nextjs/install-dependencies.md)
 
 ### 3. Configure dependencies
 
 - Configure dependencies for the project
-  - [configure-dependencies](./rules/nextjs/configure-dependencies.md)
+  - [configure-dependencies](./../instructions/nextjs/configure-dependencies.md)
 
 ### 4. Create color palette
 
 - Create if not created previously color palette for the project
-  - [style-guide-color-palette](./rules/config/style-guide-color-palette.md)
+  - [style-guide-color-palette](./../instructions/config/style-guide-color-palette.md)
 
 ### 5. Create components
 
 - Create base components for the project
-  - [tech-stack](./rules/nextjs/tech-stack.md)
+  - [tech-stack](./../instructions/nextjs/tech-stack.md)
 
 ### 6. Create Layout
 
 - Create default RootLayout and Layout for the project
-  - [layout](./rules/nextjs/layout.md)
+  - [layout](./../instructions/nextjs/layout.md)
 
 ### 7. Create base pages
 

@@ -5,7 +5,8 @@
   "chat.instructionsFilesLocations": {
     "instructions": true,
     ".github/instructions": true,
-    ".github/instructions/nextjs": true
+    ".github/instructions/nextjs": true,
+    ".github/instructions/config": true
   },
   "chat.modeFilesLocations": {
     ".github/chatmodes": true,

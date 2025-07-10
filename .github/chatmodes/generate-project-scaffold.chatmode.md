@@ -1,7 +1,7 @@
 ---
 description: "Generate the complete monorepo structure for your project with all necessary configuration files and dependencies."
 model: Claude Sonnet 4
-tools: ['changes', 'codebase', 'editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'microsoft.docs.mcp']
+tools: ['changes', 'codebase', 'editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'microsoft.docs.mcp', 'terminal']
 ---
 
 # Project Scaffolding Workflow
@@ -22,7 +22,7 @@ This workflow generates the complete monorepo structure for your project with al
 ### 2. **Create Web Package Directory (`packages/web`)**
 
 - Create the `packages/web` directory.
-- For detailed setup of the Web package, including internal structure, configuration files, UI library initialization (like Shadcn), and essential entry points, refer to the [01-generate-project-nextjs](../../.windsurf/workflows/01-generate-project-nextjs.md) workflow.
+- For detailed setup of the Web package, including internal structure, configuration files, UI library initialization (like Shadcn), and essential entry points, refer to the [generate-project-nextjs](./nextjs-generate-project-scaffold.chatmode.md) workflow.
 
 ### 3. **Create API Package Directory (`packages/api`)**
 
